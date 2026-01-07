@@ -1,6 +1,6 @@
 # Recon Worker
 
-Background worker for payment reconciliation. This repository is automatically cloned when opening the [payments-api](https://github.com/YOUR_USERNAME/payments-api) repository in Ona/Gitpod.
+Background worker for payment reconciliation. This repository is automatically cloned when opening the [payments-api](https://github.com/GMorcosEE/payments-api) repository in Ona/Gitpod.
 
 ## Overview
 
@@ -75,7 +75,7 @@ Requires Postgres with the payments schema.
 
 This repository is designed to work as part of a multi-repo setup:
 
-1. Open [payments-api](https://github.com/YOUR_USERNAME/payments-api) in Ona/Gitpod
+1. Open [payments-api](https://github.com/GMorcosEE/payments-api) in Ona/Gitpod
 2. This repo is automatically cloned to `/workspaces/recon-worker`
 3. Dependencies are installed via automations
 4. Worker starts automatically with the full system
@@ -154,14 +154,14 @@ gitpod automations service logs worker
 
 ## Related Repositories
 
-- **[payments-api](https://github.com/YOUR_USERNAME/payments-api)** - Main orchestrator repository
-- **[payments-ui](https://github.com/YOUR_USERNAME/payments-ui)** - Next.js interface
+- **[payments-api](https://github.com/GMorcosEE/payments-api)** - Main orchestrator repository
+- **[payments-ui](https://github.com/GMorcosEE/payments-ui)** - Next.js interface
 
 ## Getting Started
 
 **Don't clone this repo directly!** Instead:
 
-1. Open [payments-api](https://github.com/YOUR_USERNAME/payments-api) in Ona/Gitpod
+1. Open [payments-api](https://github.com/GMorcosEE/payments-api) in Ona/Gitpod
 2. The devcontainer will automatically clone this repo
 3. All services will start together
 4. Worker begins processing jobs automatically
@@ -181,7 +181,7 @@ The worker interacts with these tables:
 - `reconciliation_results` - Reconciliation outcomes
 - `ledger_entries` - Account ledger
 
-See [payments-api](https://github.com/YOUR_USERNAME/payments-api) for schema details.
+See [payments-api](https://github.com/GMorcosEE/payments-api) for schema details.
 
 ## License
 
